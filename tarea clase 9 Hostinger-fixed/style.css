@@ -1,0 +1,49 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+section{
+    background-color: white;
+
+}
+.container-button{
+  display: flex;
+  flex-direction: column;
+   
+
+}
+
+.botón-chat{
+     display: flex;
+    flex-direction: row;
+    padding: 8px 16px;
+    background-color: #673de6;
+    gap: 8px;
+    border-radius:100px;
+    border: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: index 1;
+}
+   
+
+
+.bi-boxes{
+    color: white;
+}
+
+.small-text{
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700px;
+    color: white;
+}
+

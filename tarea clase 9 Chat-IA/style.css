@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Coral+Pixels&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+:root{
+    --color-principal-100:#BABAC1;
+    --color-principal-300:#404045;
+    --color-principal-500:#212327;
+
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Mono", monospace;
+
+}
+
+.text-small{
+    color: var(--color-principal-100);
+    font-size: 12px;
+}
+.text-medium{
+    color: var(--color-principal-100);
+    font-size: 14px;
+}
+header{
+     position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.header-chat{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-principal-300);
+    max-width: 100%;
+    padding: 6px 14px 6px 6px;
+    margin: 5px;
+   
+    
+}
+.button-chat{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    top: 0px;
+    left: 300px;
+    gap: 40px;
+}
+.btn{
+    background-color: var(--color-principal-300);
+    border:none;
+
+}
+.btn-run{
+    padding: 0 4px;
+    background-color: var(--color-principal-300);
+    border: none;
+    border-left: 1px solid var(--color-principal-100);
+}
+
+
